@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Cool Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+     <!-- Navbar Section -->
+    <nav id="home" class="navbar">
+        <a href="#home" class="logo">My Blog</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#posts">Posts</a></li>  <!-- Added Posts tab -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Welcome to My Blog</h1>
+        <p>Sharing ideas, stories, and insights with the world.</p>
+    </section>
+
+    <!-- Main Content Section -->
+    <section id="posts" class="main-content">
+        <div class="blog-posts">
+            <article class="post">
+                <h2>My Journey into Web Development: The First Step</h2>
+                <p class="exspace">I’ve begun my web development journey! Starting with HTML and CSS, I’ve already built my first simple website. Excited to learn more and share my progress as I go!</p>
+                <a href="blogpost1.html" class="read-more">Read More</a>
+            </article>
+            <article class="post">
+                <h2>The Struggles of Building My Blog Website</h2>
+                <p class="exspace">Building my blog website has been more challenging than expected. From layout issues to coding struggles, it’s been a frustrating yet valuable learning experience. Despite the obstacles, I'm determined to keep pushing forward.</p>
+                <a href="blogpost2.html" class="read-more">Read More</a>
+            </article>
+            <article class="post">
+                <h2>Finally Figuring Things Out: A Breakthrough Moment</h2>
+                <p class="exspace">After a lot of trial and error, I finally figured out key aspects of web development, improving my blog’s layout, responsiveness, and interactivity.</p>
+                <a href="blogpost3.html" class="read-more">Read More</a>
+            </article>
+            <!-- Add more posts as needed -->
+        </div>
+
+        <!-- Sidebar tbc -->
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Coding</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Personal Development</a></li>
+            </ul>
+
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="Blogpost1.html" class="read-more">My Journey into Web Development: The First Step</a></li>
+                <li><a href="blogpost2.html" class="read-more">The Struggles of Building My Blog Website</a></li>
+                <li><a href="blogpost3.html" class="read-more">Finally Figuring Things Out: A Breakthrough Moment</a></li>
+            </ul>
+        </aside>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I'm a gamer who is intrested in lots to do with web design and development and this is where im going to keep up with my work and how im progressing and learning.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; SonLeches Blog 2024</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
